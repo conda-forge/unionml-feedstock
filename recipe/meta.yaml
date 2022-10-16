@@ -39,7 +39,7 @@ requirements:
     - dataclasses-json
     - docker-py
     - fastapi
-    - flytekit >=1.2.0
+    - flytekit >=1.0.0
     - gitpython
     - joblib
     - mangum
