@@ -12,7 +12,7 @@ source:
   sha256: f755f85f1ef71b61c895ada99cc2cdb010cf9d045c7facfa4d4cedb5fd02c300
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - unionml = unionml.cli:app
