@@ -1,6 +1,6 @@
 {% set reqfile = "requirements.txt" %}
 {% set name = "unionml" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/unionml-{{ version }}.tar.gz
-  sha256: f755f85f1ef71b61c895ada99cc2cdb010cf9d045c7facfa4d4cedb5fd02c300
+  sha256: 79115a02d7e11c6dfd38c348eb5efdeedabceba670f59db6054c7ffb2ce59eac
 
 build:
   number: 0
