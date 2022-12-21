@@ -43,9 +43,9 @@ requirements:
     - gitpython
     - joblib
     - mangum
-    - numpy <1.22.0  # [py37]
+    - numpy <1.22.0  # [py==37]
     # remove this when flytekit restriction is lifted
-    - numpy <1.24.0  # [not py37]
+    - numpy <1.24.0  # [py>37]
     - pandas
     - pydantic
     - scikit-learn
