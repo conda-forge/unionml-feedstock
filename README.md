@@ -162,5 +162,8 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@cosmicBboy](https://github.com/cosmicBboy/)
+* [@eapolinario](https://github.com/eapolinario/)
 * [@sugatoray](https://github.com/sugatoray/)
+* [@wild-endeavor](https://github.com/wild-endeavor/)
 
