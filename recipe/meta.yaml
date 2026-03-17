@@ -8,11 +8,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/unionml-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/unionml-{{ version }}.tar.gz
   sha256: 79115a02d7e11c6dfd38c348eb5efdeedabceba670f59db6054c7ffb2ce59eac
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - unionml = unionml.cli:app
@@ -31,9 +31,9 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - click
     - cookiecutter
     - dataclasses-json
@@ -60,6 +60,7 @@ test:
     - unionml --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://pypi.org/project/unionml/
